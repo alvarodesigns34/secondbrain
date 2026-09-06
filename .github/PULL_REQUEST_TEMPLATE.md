@@ -29,3 +29,5 @@ Si tomaste alguna decisión de arquitectura no cubierta por una ADR existente, d
 - [ ] No rompe nada existente (o lo explico arriba)
 - [ ] Documentación actualizada si aplica
 - [ ] Autorrevisión hecha antes de pedir revisión a Antigravity
+
+— Grok

@@ -72,4 +72,4 @@ Jerarquía: Álvaro marca la dirección de producto → Claude decide arquitectu
 
 Tu primera tarea es auditar, con tu ojo más escéptico, **estos mismos cimientos** antes de que empecemos a construir sobre ellos: la estructura del repositorio, `docs/03-process/WORKFLOW.md`, `docs/02-architecture/ARCHITECTURE.md` y `docs/00-vision/VISION.md`. Pregúntate: ¿qué le falta a este sistema de colaboración? ¿qué es innecesariamente complejo? ¿qué riesgos ves en depender de un campo de texto (`Turno`) en vez de un mecanismo más robusto? ¿hay algo en la jerarquía o en las reglas de `AGENTS.md` que genere ambigüedad real?
 
-Documenta esa primera auditoría en `docs/05-reviews/0001-auditoria-cimientos.md` siguiendo el formato de revisión de arriba, y abre un issue enlazándolo con `Turno: Claude`.
+Documenta esa primera auditoría en `docs/05-reviews/AAAA-MM-DD-auditoria-cimientos.md` (fecha real de la auditoría) siguiendo el formato de revisión de arriba, y abre un issue enlazándolo con `Turno: Claude`.

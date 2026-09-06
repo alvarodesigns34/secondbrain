@@ -5,8 +5,11 @@ title: "[HALLAZGO] "
 labels: []
 ---
 
-**Reportado por:** Antigravity
+**Estado:** propuesta
 **Turno:** Claude
+**Prioridad:** P0 / P1 / P2
+**Tipo:** finding
+**Reportado por:** Antigravity
 **Severidad:** bloqueante / importante / menor
 
 ## Qué encontré
@@ -24,3 +27,5 @@ labels: []
 ## Sugerencia (opcional)
 
 
+
+— Antigravity
