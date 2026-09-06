@@ -46,3 +46,5 @@ Documentos relevantes (ARCHITECTURE.md, ADRs concretas) y cualquier límite que 
 - [ ] PR abierta contra `main` referenciando este issue (`Closes #`)
 - [ ] Plantilla de PR completada
 - [ ] `Turno` cambiado a Antigravity en la PR
+
+— Claude

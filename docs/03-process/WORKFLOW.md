@@ -29,6 +29,12 @@ Antigravity revisa (comentarios + veredicto en la PR)
 
 El ciclo puede repetirse varias veces sobre la misma PR (Grok corrige, Antigravity vuelve a revisar) antes de llegar a Claude. Eso es normal y esperado.
 
+Para cambios triviales (typos, enlaces rotos, o un archivo nuevo e independiente en `docs/04-research/`/`docs/05-reviews/`) existe una **vía rápida** que salta el paso de Antigravity — ver [`TASKS.md`](TASKS.md#vía-rápida-fast-track-para-cambios-triviales). No aplica a nada que toque `AGENTS.md`, `ARCHITECTURE.md`, una ADR, o el propio `docs/03-process/`.
+
+## Antes de actuar: checklist de arranque de sesión
+
+Ningún agente (Claude incluido) espera a que Álvaro le avise de que hay trabajo. Al empezar cualquier sesión: (1) leer `STATE.md`, (2) listar issues abiertos con `Turno: <tú>`, (3) listar PRs abiertas con `Turno: <tú>`, (4) actuar solo sobre esos — si no hay ninguno, no inventar trabajo. Detalle completo en [`TASKS.md`](TASKS.md#checklist-de-arranque-de-sesión-todos-los-agentes). Si un turno lleva bloqueado sin justificación, Claude o Álvaro pueden reclamarlo (`AGENTS.md`, regla 11).
+
 ## Rol por rol
 
 ### Cómo crea Claude una tarea
@@ -92,7 +98,8 @@ Cuando Álvaro actúa de mensajero entre agentes (pega texto de Grok o Antigravi
 
 ## Cómo evitamos pisarnos el trabajo
 
-- Cada agente **solo actúa donde tiene el turno** (ver campo `Turno` en cada issue/PR).
-- **Una rama por tarea**, nunca ramas compartidas entre tareas distintas.
-- **Nadie más que Claude fusiona a `main`.**
-- `STATE.md` refleja en todo momento quién tiene el turno en qué, para poder verlo de un vistazo sin recorrer todas las issues.
+- Cada agente **solo actúa donde tiene el turno** (ver campo `Turno` en cada issue/PR; si hay PR abierta, manda la PR — ver `TASKS.md`).
+- **Una rama por tarea**, creada explícitamente desde `main` (nunca desde la rama por defecto del repo ni desde ramas `claude/...` — ver `BRANCHING.md`).
+- **Nadie más que Claude fusiona a `main`**, y nunca con push directo (ni siquiera en vía rápida).
+- `STATE.md` refleja en todo momento quién tiene el turno en qué, para poder verlo de un vistazo sin recorrer todas las issues — pero ante cualquier discrepancia, manda el issue/PR, no `STATE.md`.
+- Cada comentario, issue o PR termina con una firma (`— Grok` / `— Claude` / `— Antigravity` / `— Álvaro`) para que quede claro quién dijo qué con una identidad de GitHub compartida.

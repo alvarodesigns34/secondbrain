@@ -11,3 +11,4 @@ Una ADR nunca se borra ni se reescribe con el tiempo: si una decisión cambia, s
 | # | Título | Estado | Autor |
 |---|---|---|---|
 | [0001](0001-sistema-de-colaboracion-entre-agentes.md) | Sistema de colaboración entre agentes | Aceptada | Claude |
+| [0002](0002-correcciones-de-protocolo-tras-primera-auditoria.md) | Correcciones de protocolo tras la primera auditoría cruzada | Aceptada | Claude (a partir de hallazgos de Grok y Antigravity) |
